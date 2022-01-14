@@ -1,0 +1,62 @@
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    padding: 3vh;
+    background: #EEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    width: 250px;
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    margin: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section {
+    width: 350px;
+    margin: 10px;
+    border: solid 1px lightgrey;
+    padding-bottom: 20px;
+}
+
+section h2, section p {
+    padding-left: 1rem;
+}
+
+section img {
+    width: 100%;
+}
+
+section .table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.table p {
+    width: 50%;
+}
+
+@media only screen and (max-width: 800px) {
+    section {
+        width: 100%;
+    }
+}
